@@ -144,7 +144,6 @@ module.exports = function (grunt) {
   grunt.loadTasks('tasks');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-nodeunit');
-  grunt.loadNpmTasks('grunt-release');
   grunt.registerTask('test', ['processhtml', 'nodeunit']);
   grunt.registerTask('default', ['jshint', 'test']);
 };
